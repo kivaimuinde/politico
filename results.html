@@ -5,10 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="results.css" />
+    <link rel="stylesheet" type="text/css"  href="main.css" />
     <script src="main.js"></script>
+    <style>
+        body{
+            background: skyblue;
+        }
+        table{
+            widows: 800px;
+            margin: auto;
+            text-align: center;
+            table-layout: fixed;
+        }
+        table, tr, th,td{
+            padding: 20px;
+            color: white;
+            border: 1px solid #080808;
+            font-family: Arial;
+            background: linear-gradient(top, #3c3c3c 0%, #222222 100%);
+            background: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+        }
+        td:hover{
+            background: purple;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </nav>
+    </header>
     <table>
         <tr>
             <td colspan="5">Presidential Results</td>
@@ -105,51 +134,51 @@
             </td>
         </tr>
         <tr>
-                <th>County Code</th>
-                <th>County Name</th>
-                <th>SN</th>
-                <th>Candidate</th>
-                <th>Party</th>
-                <th>Running Mate</th>
-                <th>Votes</th>
-            </tr>
-            <tr>
-                <td rowspan="4">001</td>
-                <td rowspan="4">MOmbasa</td>
-                <td>1</td>
-                <td>Uhuru Kenyatta</td>
-                <td>Jubilee Party</td>
-                <td>William Ruto</td>
-                <td>21224545</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Raila Odinga</td>
-                <td>NASA COlaition</td>
-                <td>Kalonzo Musyoka</td>
-                <td>21224545</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Peter Kenneth</td>
-                <td>Indepence party</td>
-                <td>Aukot</td>
-                <td>21224545</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Hassan Joho</td>
-                <td>ODM</td>
-                <td>Sakajas</td>
-                <td>21224545</td>
-            </tr>
-            <tr>
-                <td colspan="7">
-                    <div class="winner">Uhuru Kenyatte
-                        and William Ruto are the President elect and deputy president elect respeectively
-                    </div>
-                </td>
-            </tr>
+            <th>County Code</th>
+            <th>County Name</th>
+            <th>SN</th>
+            <th>Candidate</th>
+            <th>Party</th>
+            <th>Running Mate</th>
+            <th>Votes</th>
+        </tr>
+        <tr>
+            <td rowspan="4">001</td>
+            <td rowspan="4">MOmbasa</td>
+            <td>1</td>
+            <td>Uhuru Kenyatta</td>
+            <td>Jubilee Party</td>
+            <td>William Ruto</td>
+            <td>21224545</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Raila Odinga</td>
+            <td>NASA COlaition</td>
+            <td>Kalonzo Musyoka</td>
+            <td>21224545</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Peter Kenneth</td>
+            <td>Indepence party</td>
+            <td>Aukot</td>
+            <td>21224545</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Hassan Joho</td>
+            <td>ODM</td>
+            <td>Sakajas</td>
+            <td>21224545</td>
+        </tr>
+        <tr>
+            <td colspan="7">
+                <div class="winner">Uhuru Kenyatte
+                    and William Ruto are the President elect and deputy president elect respeectively
+                </div>
+            </td>
+        </tr>
     </table>
 </body>
 </html>>

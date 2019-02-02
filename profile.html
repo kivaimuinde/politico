@@ -6,9 +6,11 @@
     <script src="js/main.js"></script>
     <style>
         .main-body {
-            padding: 20px 0;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-            max-width: 300px;
+            padding: 0;
+            display: block;
+            align-self: auto;
+            box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.0);
+            max-width: 500px;
             margin: auto;
             text-align: center;
             font-family: arial;
@@ -30,6 +32,7 @@
             cursor: pointer;
             width: 100%;
             font-size: 18px;
+            border-radius: 10%;
         }
         
         a {
@@ -44,6 +47,15 @@
         .main-body img{
             border-radius: 50%;
         }
+        .prof img{
+            width: 200px;
+            height: 200px;
+        }
+        body{
+            padding: 0;
+            border: 0;
+            color: aliceblue;
+        }
     </style>
 </head>
 <body>
@@ -54,12 +66,12 @@
 			</ul>
 		</nav>
     </header>
-    <div class="container">
-    <h2 style="text-align:center">My Profile :: Kivai Muinde</h2>
-    
+    <div class="">
     <div class="main-body">
-        <img src="p.jpeg" alt="title" style="width:100%">
-        <h1>Kivai Muinde</h1>
+        <div class="prof">
+        <img src="img/p.jpeg" alt="title">
+        </div>
+        <h1>Kivai Muinde :<small>My Profile</small></h1>
         <p class="role">Makueni County</p>
         <p>XYZ Ward</p>
         <div style="margin: 50px 0;">

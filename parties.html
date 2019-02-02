@@ -1,0 +1,81 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css"  href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        body{
+            background: skyblue;
+        }
+        table{
+            widows: 800px;
+            margin: auto;
+            text-align: center;
+            table-layout: fixed;
+        }
+        table, tr, th,td{
+            padding: 20px;
+            color: white;
+            border: 1px solid #080808;
+            font-family: Arial;
+            background: linear-gradient(top, #3c3c3c 0%, #222222 100%);
+            background: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+            position: relative;
+        }
+        td:hover{
+            background: purple;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <table>
+        <tr>
+            <td colspan="5">Parties and Candidates</td>
+        </tr>
+        <tr>
+            <th>SN</th>
+            <th>Party</th>
+            <th>Cabdidates</th>
+            <th>Position</th>
+            <th>Region</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td rowspan="2">Party 1</td>
+            <td>Candidate A</td>
+            <td>Position A</td>
+            <td>Region A</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Candidate b</td>
+            <td>Position A</td>
+            <td>Region B</td>
+        </tr>
+        <tr>
+                <td>3</td>
+                <td rowspan="2">Party 2</td>
+                <td>Candidate c</td>
+                <td>Position b</td>
+                <td>Region A</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Candidate d</td>
+                <td>Position A</td>
+                <td>Region B</td>
+            </tr>
+    </table>
+</body>
+</html>

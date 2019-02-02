@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <script src="js/main.js"></script>
+    <style>
+        .main-body {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+        
+        .role {
+            color: grey;
+            font-size: 18px;
+        }
+        
+        button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+        }
+        
+        a {
+            text-decoration: none;
+            font-size: 22px;
+            color: black;
+        }
+        
+        button:hover, a:hover {
+            opacity: 0.7;
+        }
+        .main-body img{
+            border-radius: 50%;
+        }
+        select{
+            border: none;
+            border-style: none;
+            width: 100%;
+            size: 20px;
+        }
+        .prof img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+        #adminpanel{
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+			</ul>
+		</nav>
+    </header>
+    <div class="container">
+    <p id="adminPanel">Admin Panel</p>
+    <div class="main-body">
+        <div class="prof">
+        <img src="img/p.jpeg" alt="title">
+        </div>
+        <div style="margin: 50px 0;">
+            <p><a href="addparty.html"><button>Click here to Party</button></a></p>
+            <p><a href="viewParties.html"><button>Click here to see parties</button></a></p>
+            <p><a href="editPart.html"><button>Click here to Edit Party</button></a></p>
+            <p><a href="addOffice.html"><button>Click here to Add Office</button></a></p>
+        </div>
+        <div style="margin: 30px 0;">
+            <a href="#"><i class="fa fa-dribbble"></i></a> 
+            <a href="#"><i class="fa fa-twitter"></i></a>  
+            <a href="#"><i class="fa fa-linkedin"></i></a>  
+            <a href="#"><i class="fa fa-facebook"></i></a> 
+        </div>
+        <p><button>Edit Profile</button></p>
+    </div>
+</div>    
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <script src="js/main.js"></script>
+    <style>
+        .main-body {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+
+        .role {
+            color: grey;
+            font-size: 18px;
+        }
+
+        button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 22px;
+            color: black;
+        }
+
+        button:hover,
+        a:hover {
+            opacity: 0.7;
+        }
+
+        .main-body img {
+            border-radius: 50%;
+        }
+
+        select {
+            border: none;
+            border-style: none;
+            width: 100%;
+            size: 20px;
+        }
+
+        .prof img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+        textarea {
+            background: none;
+            border: none;
+            text-align: center;
+            width: 90%;
+            line-height: 37px;
+            font-family: "Montserrat", sans serif;
+            font-size: 14px;
+            color:#333;
+            background-color: aliceblue;
+            border-radius: 10%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h2 style="text-align:center">Hello, Kivai Muinde</h2>
+        <p>File a Petition</p>
+        <div class="main-body">
+            <div class="prof">
+                <img src="img/p.jpeg" alt="title">
+            </div>
+            <div style="margin: 50px 0;">
+                <form action="" method="">
+                    <select name="party">
+                        <option>Type of Petition</option>
+                        <option>Petition A</option>
+                        <option>Petition b</option>
+                        <option>Petition C</option>
+                    </select>
+                    <br>
+                    <br><BR>
+                    <textarea name="decribe">
+Describe your issue
+               </textarea>
+                    <br>
+                    <button class="btn" type="submit">Submit</button>
+                </form>
+            </div>
+            <div style="margin: 30px 0;">
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+            <p><button>Edit Profile</button></p>
+        </div>
+    </div>
+</body>
+
+</html>
